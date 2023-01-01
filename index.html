@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+
+
+<body>
+
+  <div class="c container  bg-white mt-5">
+    <div class="row ">
+      <div class="col-lg-6 col-md-6 ">
+        <div class="img mt-5">
+
+           <img src="images/Wavy_Tech-28_Single-10.jpg" alt="" height="100%" width="100%"> 
+        </div>
+      </div>
+
+
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-4 p-5 mt-3 ">
+        <div class="col-lg-8 col-md-12 col-sm-12 col-xs-4 mb-5 mt-5 ">
+          <form action="next page.html" method="post" role="form"  onsubmit="return validate()">
+            <div class="text-center text-primary">
+              <img src="images/use.png" height=50%; width=30%; alt="">
+              <h3 class="h fw-bolder">User Login</h3>
+            </div>
+
+            <!--email-->
+            <div class="form-group mt-4">
+              <span class="f mt-2"><i class="bi bi-envelope-check-fill" style="font-size: 18px;"></i></span> 
+
+                <input type="text" class="form-control rounded-pill " name="name" id="email" placeholder="Enter Name" data-rule="email" data-msg="Please enter a valid email">
+                <p id="p1" class="text-danger"></p>
+                <div class="validate"></div>
+            </div>
+
+            <!--password-->
+            <div class="form-group mt-3">
+              <span class="f mt-2"><i class="text-dark bi bi-eye-slash-fill" style="font-size: 18px;"></i></span> 
+                <input type="password" class="form-control rounded-pill" name="subject" id="pass" placeholder="Password" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
+                <p id="p2"></p>
+                </div>
+           
+           
+            <div class="d-flex justify-content-between align-items-center">
+              <!-- Checkbox -->
+              <div class="form-check mb-0 mt-3">
+                <input class="form-check-input " type="checkbox"/>
+                <label class="form-check-label text-dark fw-semibold fs-6">
+                  Remember me
+                </label>
+              </div>
+              <a href="#" class="a  text-success fw-semibold mt-3 fs-6">Forgot password?</a>
+            </div>
+    
+            <div class="text-center ">
+                <button  class="c btn btn-primary rounded-pill p-2 mt-4" value="submit">Login</button>
+            </div>
+
+        </form>
+     </div>
+      </div>
+
+
+
+
+
+
+    </div>
+  </div>
+
+
+
+<script src="main.js"></script>
+
+     
+       
+</body>
+</html>

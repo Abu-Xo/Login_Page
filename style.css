@@ -1,0 +1,54 @@
+body{
+    background-color:  #000058;
+}
+
+a{
+text-decoration: none;
+
+}
+.c{
+width: 100%;
+}
+
+.f{
+margin-left: 20%;
+position: absolute;
+}
+
+@media only screen and (max-width: 768px) {
+
+
+
+.img{
+display: none;
+}
+}
+
+
+
+@media only screen and (max-width: 568px) {
+
+body{
+background-color: #4caf50;
+
+}
+
+.img{
+display: none;
+}
+.c{
+background-color: #4caf50;
+}
+.h{
+color:#4caf50;
+}
+.d{
+background-color: #4caf50;
+}
+
+.a{
+color: #4caf50;
+}
+
+
+}
